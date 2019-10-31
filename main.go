@@ -36,7 +36,7 @@ func main() {
 		fmt.Println(err)
 	}
 
-	fmt.Print("Ripple API")
+	fmt.Print("Hakura API V0.1")
 	if Version != "" {
 		fmt.Print("; git commit hash: ", Version)
 	}
